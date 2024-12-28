@@ -1,7 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 
-
 <html>
     <head>
         <title>List Todos Page</title>
@@ -27,7 +26,7 @@
                         <td>${todo.id}</td>
                         <td>${todo.description}</td>
                         <td>${todo.startDate}</td>
-                        <td>${todo.done}</td>
+                        <td>${todo.done ? 'Yes' : 'No'}</td>
                     </tr>
                 </c:forEach>
             </tbody>
