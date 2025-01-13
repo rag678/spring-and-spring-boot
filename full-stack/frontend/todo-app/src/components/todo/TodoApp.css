@@ -1,0 +1,25 @@
+div{
+    color: blue;
+}
+
+label,input,button{
+    margin: 10px;
+    padding: 5px;
+}
+
+.successMessage{
+    padding: auto;
+    color: green;
+}
+
+.errorMessage{
+    padding: auto;
+    color: red;
+}
+
+footer{
+    bottom: 0;
+    position: absolute;
+    width: 90%;
+    height: 40px;
+}
